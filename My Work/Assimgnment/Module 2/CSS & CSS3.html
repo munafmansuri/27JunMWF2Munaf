@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 2</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            border: 2px;
+        }
+
+        .lay {
+            background-color: aquamarine;
+            width: 1295px;
+            height: 150px;
+            border: 4px solid black;
+            box-sizing: border-box;
+            border-radius: 3px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        .layout {
+            display: flex;
+            justify-content: center width: 1200px;
+            height: 270px;
+
+        }
+
+
+        .box1 {
+            background-color: blueviolet;
+            display: flex;
+            justify-content: center;
+            border: 2px solid black;
+            box-sizing: border-box;
+            border-radius: 3px;
+        }
+
+        .box2 {
+            background-color: coral;
+            display: flex;
+            justify-content: center;
+            border: 2px solid black;
+            box-sizing: border-box;
+            border-radius: 3px;
+        }
+
+        .box3 {
+            background-color: darkgoldenrod;
+            display: flex;
+            justify-content: center;
+            border: 2px solid black;
+            box-sizing: border-box;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Module (CSS & CSS3) 2</h1>
+    <br>
+
+    <div>
+        <ul>
+            <li>
+                <h2>What are the benefits of using CSS?</h2>
+            </li>
+            <br>
+            CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the
+            style of fonts, the spacing between paragraphs, how columns are sized and laid out, etc. CSS saves time −
+            You can write CSS once and then reuse the same sheet in multiple HTML pages.
+        </ul>
+        <ul>
+            <li>
+                <h2>What are the disadvantages of CSS?</h2>
+            </li>
+            <br>
+            <ol>
+                <li>CSS, CSS 1 up to CSS3, result in creating of confusion among web browsers.
+                    With CSS, what works with one browser might not always work with another. The web developers need to
+                    test for compatibility, running the program across multiple browsers.</li>
+                <li>There exists a scarcity of security.</li>
+                <li>After making the changes we need to confirm the compatibility if they appear. The similar change
+                    affects on all the browsers.</li>
+                <li>The programing language world is complicated for non-developers and beginners. Different levels of
+                    CSS
+                    i.e. CSS, CSS 2, CSS 3 are often quite confusing.</li>
+                <li>Browser compatibility (some styles sheet are supported and some are not).</li>
+                <li>CSS works differently on different browsers. IE and Opera supports CSS as different logic.</li>
+                <li>There might be cross-browser issues while using CSS.</li>
+                <li>There are multiple levels which creates confusion for non-developers and beginners.</li>
+            </ol>
+        </ul>
+        <ul>
+            <li>
+                <h2>What is the difference between CSS2 and CSS3?</h2>
+            </li>
+            <br>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>S.No.</th>
+                        <th>CSS</th>
+                        <th>CSS3</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>CSS is capable of positioning texts and objects.&nbsp;</th>
+                        <th>On the other hand, CSS3 is capable of making the web page more attractive and takes less
+                            time to create. CSS3 is backward compatible with CSS.</th>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <th>Responsive designing is not supported in CSS</th>
+                        <th>CSS3 is the latest version, hence it supports responsive design.</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>CSS cannot be split into modules.</th>
+                        <th>Whereas CSS3 can be breakdown into modules.</th>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <th>Using CSS, we cannot build 3D animation and transformation.</th>
+                        <th>But in CSS3 we can perform all kinds of animation and transformations as it supports
+                            animation and 3D transformations.</th>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <th>CSS is very slow as compared to CSS3</th>
+                        <th>Whereas CSS3 is faster than CSS.</th>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <th>In CSS we have set of standard colors and it uses basic color schemes only.</th>
+                        <th>Whereas CSS3 has a good collection of HSL RGBA, HSLA, and gradient colors.</th>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <th>In CSS we can only use single text blocks.</th>
+                        <th>But in CSS3 we can use multi-column text blocks</th>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <th>CSS does not support media queries.</th>
+                        <th>But CSS3 supports media queries</th>
+                    </tr>
+                    <tr>
+                        <th>9</th>
+                        <th>CSS codes are not supported by all types of modern browsers.</th>
+                        <th>Being the latest version, CSS3 codes are supported by all modern browsers.</th>
+                    </tr>
+                    <tr>
+                        <th>10</th>
+                        <th>In CSS, designers have to manually develop rounded gradients and corners.</th>
+                        <th>But CSS3 provides advanced codes for setting rounded gradients and corners</th>
+                    </tr>
+                    <tr>
+                        <th>11</th>
+                        <th>There is no special effect like shadowing text, text animation, etc. in CSS. The animation
+                            was coded in jQuery and JavaScript.</th>
+                        <th>CSS3 has many advance features like text shadows, visual effects, and a wide range of font
+                            styles and colors.</th>
+                    </tr>
+                    <tr>
+                        <th>12</th>
+                        <th>In CSS, the user can add background colors to list items and lists, set images for the list
+                            items, etc.</th>
+                        <th>Whereas CSS3 list has a special <i>display</i> property defined in it. Even list items also
+                            have counter reset properties.</th>
+                    </tr>
+                    <tr>
+                        <th>13</th>
+                        <th>CSS was developed in 1996.</th>
+                        <th>CSS3 is the latest version of CSS and was released in 2005.</th>
+                    </tr>
+                    <tr>
+                        <th>14</th>
+                        <th>CSS is memory intensive.</th>
+                        <th>CSS3 memory consumption is low as compared to CSS.</th>
+                    </tr>
+                </tbody>
+            </table>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>Name a few CSS style components</h2>
+            </li>
+        </ul>
+        <br>
+        <ol>
+            <li> Selector: class name, id name or element name that is target
+
+            </li>
+            <li>Attribute: name of the attribute you want to style for example border, color, background, position etc.
+            </li>
+            <li>Value of Property: value that will be assigned to attribute.</li>
+        </ol>
+        <br>
+        <ul>
+            <li>
+                <h2>What do you understand by CSS opacity?</h2>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li>The opacity CSS property sets the opacity of an element. Opacity is the degree to which content behind
+                an element is hidden, and is the opposite of transparency</li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>How can the background color of an element be changed?</h2>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li>To set the background color in HTML, use the style attribute. The style attribute specifies an inline
+                style for an element. The attribute is used with the HTML &lt;body> tag, with the CSS property
+                background-color. HTML5 do not support the &lt;body> tag bgcolor attribute, so the CSS style is used to
+                add background color.</li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>How can image repetition of the backup be controlled?</h2>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li>To control the repetition of an image in the background, use the background-repeat property. You can use
+                no-repeat value for the background-repeat property if you do not want to repeat an image, in this case,
+                the image will display only once.</li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>What is the use of the background-position property?</h2>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                The background-position property in CSS is mainly used to sets the initial position for the background
+                image ie., it is used to set an image at a certain position. The position that is relative to the
+                positioning layer, can be set by using the background-origin property.
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>Which property controls the image scroll in the background?</h2>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li>The background-attachment CSS property sets whether a background image's position is fixed within the
+                viewport, or scrolls with its containing block.</li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>Why should background and color be used as separate properties?</h2>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <p>There are two reasons behind this:</p>
+            <li>
+                It enhances the legibility of style sheets. The background property is a complex property in CSS, and if
+                it is combined with color, the complexity will further increase.
+            </li>
+            <li>Color is an inherited property while the background is not. So this can make confusion further.</li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>How to center block elements using CSS1?</h2>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                The “blocks” are known for taking full line space, forcing other elements to start on a new line. In
+                other words, they have a width of 100% of the webpage or container holding the block. In this article,
+                we are going to see how to block elements that usually behave and how to center them using CSS.
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>How to maintain the CSS specifications?</h2>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li>CSS is used to separate the HTML content from the representation rules to make it easier to maintain the
+                content style in a centralized manner. Basically, all the style info is contained in another file. This
+                makes the HTML code so much lighter and easier to read and edit. </li>
+            <li>CSS offers a lot of possibilities of working with big amounts of content. For example, with CSS
+                Counters, you can quickly change the appearance of all lists, paragraphs, tables, and other elements
+                that have repeated tags within them. </li>
+            <li>As CSS is used to fulfill many specific design related tasks, there’s a lot of information on the
+                Internet about various CSS tricks, workarounds, and life-hacks. If you want to become a CSS pro, then
+                you should never stop learning new things about this special language. As an example of what CSS can do,
+                check out this article on Advanced Autonumbering Techniques. </li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>What are the ways to integrate CSS as a web page?</h2>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li>CSS can be added to HTML documents in 3 ways: Inline - by using the style attribute inside HTML
+                elements. Internal - by using a &lt;style> element in the &lt;head> section. External - by using a
+                &lt;link> element to link to an external CSS file.</li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>What is embedded style sheets?</h2>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li>Embedded Stylesheet: It allows you to define styles for a particular HTML document as a whole in one
+                place. This is done by embedding the &lt;style>&lt;/style> tags containing the CSS properties in the
+                head of
+                your document.</li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>What are the external style sheets?</h2>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li>An external style sheet is a separate CSS file that can be accessed by creating a link within the head
+                section of the webpage. Multiple webpages can use the same link to access the stylesheet. The link to an
+                external style sheet is placed within the head section of the page.</li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>What are the advantages and disadvantages of using external style sheets?</h2>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li>With the help of External Style Sheets, the styles of numerous documents can be organized from one
+                single file.</li>
+            <li>In External Style Sheets, Classes can be made for use on numerous HTML element types in many forms of
+                the site.</li>
+            <li>In complex contexts, Methods like selector and grouping can be implemented to apply styles.</li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>What is the meaning of the CSS selector?</h2>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li>A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell
+                the browser which HTML elements should be selected to have the CSS property values inside the rule
+                applied to them.</li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>What are the media types allowed by CSS?</h2>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <p>CSS 2.1 defines the following media types:</p>
+            <br>
+            <li>continuous or paged.</li>
+            <li>visual, audio, speech, or tactile.</li>
+            <li>grid (for character grid devices), or bitmap.</li>
+            <li>interactive (for devices that allow user interaction), or static (for those that do not).</li>
+            <li>all (includes all media types)</li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>What is the rule set?</h2>
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li>A rule or "rule set" is a statement that tells browsers how to render particular elements on an HTML
+                page. A rule set consists of a selector followed by a declaration block. </li>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>Create Layouts</h2>
+            </li>
+        </ul>
+        <br>
+        <div class="lay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perspiciatis est excepturi sunt
+            voluptatem ea modi nesciunt accusantium tempore illo expedita inventore dicta distinctio odio magnam,
+            accusamus, alias dolores neque at a. Iusto dolores, blanditiis voluptatum tempora libero aliquid, atque
+            possimus fuga velit ipsam voluptate praesentium distinctio autem quod perferendis non quis quae
+            reprehenderit ullam, impedit odio facilis modi commodi.</div>
+        <div class=layout>
+            <div class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum ea iure accusantium
+                aliquid amet exercitationem reprehenderit! Inventore qui suscipit culpa magnam voluptates sit quae
+                molestiae, nisi repudiandae porro quo eius voluptate.</div>
+            <div class="box2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque assumenda asperiores ut
+                eveniet. Veritatis, enim eligendi. Soluta culpa iure incidunt porro ab, ad ipsa dolore earum error hic
+                pariatur quam veritatis corrupti.</div>
+            <div class="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quo tempore ipsa rerum
+                quis quae delectus quibusdam, veritatis eveniet, ad beatae deleniti sit nihil nostrum. Blanditiis illum
+                iste velit, deleniti neque aut!</div>
+
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+https://dominos.onelink.me/uM7R/3e839899   android
+
+
+
+https://dominos.onelink.me/uM7R/aa9c37d4   ios
+
+
+
+
+<img src="dom9.jpg" usemap="#image-map">
+
+<map name="image-map">
+    <area target="_blank" alt="Android App" title="Android App" href="https://dominos.onelink.me/uM7R/3e839899" coords="1149,314,1427,397" shape="rect">
+    <area target="_blank" alt="IOS App" title="IOS App" href="https://dominos.onelink.me/uM7R/aa9c37d4" coords="1465,314,1745,395" shape="0">
+</map>
