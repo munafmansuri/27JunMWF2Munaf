@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <style>
+        h1 {
+            text-align: center;
+            color: rgb(107, 102, 102);
+            font-size: 45px;
+        }
+
+        h2 {
+            color: rgb(115, 83, 40);
+            font-size: 35px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        h4 {
+            font-size: 25px;
+        }
+
+        h4,
+        h5 {
+            color: rgb(87, 54, 87);
+        }
+
+        p,
+        h5 {
+            font-size: 22px
+        }
+
+        table {
+            border: 3px solid black;
+        }
+
+        thead {
+            border: 2px solid gray;
+        }
+
+        td {
+            border: 2px solid grey;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Module (Bootstrap Basic & Advanced) – 6</h1>
+    <br>
+    <div>
+        <ul>
+            <li>
+                <h2>What are the advantages of Bootstrap?</h2>
+            </li>
+            <br>
+            <h3>Advantages of Bootstrap</h3>
+            <br>
+            <li>
+                <h4>Easy initiation</h4>
+            </li>
+            <p>
+                Coding is a hurricane task for a person who is unbeknownst to web development. But the greatest use of
+                Bootstrap in web development is it makes coding hassle-free. Bootstrap handles everything for you.
+                Despite having no extensive knowledge of coding, one can design an enticing landing page using
+                Bootstrap. The only criterion is to have moderate experience of CSS and HTML. Alongside this, the
+                integration process of Bootstrap is easy on existing and newer websites. In your current CSS, you can
+                incorporate diverse platforms, frameworks, elements of Bootstrap without any hassles.</p>
+
+            <li>
+                <h4>Responsiveness</h4>
+            </li>
+            <p>
+                Statistics highlight over 6.4 billion smartphone users worldwide. This study infers smartphone
+                penetration of over 80 percent. And the numbers do not stop here; in fact, they are rising rapidly. Due
+                to this extensive demand, having a mobile-responsive website has become a prerequisite, and this task is
+                a cakewalk with Bootstrap by your side. It has a fluid grid layout, which adapts as per the screen
+                resolution.
+            </p>
+            <li>
+                <h4>Highly customizable</h4>
+            </li>
+            <p>
+                You can find an array of templates in Bootstrap. However, if you find them unappealing, you can concoct
+                your customization using the CSS file. Besides, if you cannot spare time to start everything from
+                scratch, you can blend the customization with the existing code and enhance the functionality. All this
+                can be undertaken under the customization page.
+            </p>
+            <li>
+                <h4>Extremely user-centric</h4>
+            </li>
+            <p>
+                While creating landing pages, it is very important to design from the user’s point of view. If a landing
+                page is engaging, only then does it appeal to the audience. One of the prominent advantages of Bootstrap
+                is you can design landing pages complementing the audience’s requirements. It comes up with suggestions
+                regarding elements like photos, Call-to-actions (CTA) that look best for your audience and enhance user
+                experience. Moreover, it helps in making easy edits to the landing page elements for reaching out to
+                more audiences.
+            </p>
+            <li>
+                <h4>Top-notch support</h4>
+            </li>
+            <p>
+                When using Bootstrap, the only requirement is basic knowledge of coding. However, as a newbie, you might
+                come across an array of problems. It might lead to hesitancy when using Bootstrap. To overcome this
+                problem, Bootstrap comes with a huge support community. Having a support community is a blessing in
+                disguise when using any technology. You get answers to every query. You share the query, and the
+                community will actively help in solving it.
+
+                Besides, the creators are always on their toes updating Bootstrap to offer a better experience to the
+                users. With this, you can always avail the best assistance in every circumstance.
+            </p>
+            <li>
+                <h4>Cross-browser compatibility</h4>
+            </li>
+            <p>
+                Every user is different, and so is their device. Along with the device, they use varied browsers too.
+                Bootstrap is compatible with the latest versions of all modern browsers and platforms. One of the
+                biggest advantages of using Bootstrap is compatibility across browsers. With Bootstrap by your side,
+                heave a sigh of relief when it comes to displaying your landing page across multiple browsers. Its
+                compatibility with Google Chrome, Firefox, Safari, and Internet Explorer makes it more versatile.
+            </p>
+            <li>
+                <h4>JavaScript plugins to your rescue</h4>
+            </li>
+            <p>
+                To make the pages more interactive, one needs elements, like sliders, drop-down menus, tabs, etc. The
+                hunt begins to find complementing plugins to include these elements. But with Bootstrap by your side,
+                you can easily incorporate these components as numerous JavaScript plugins are bundled in the Bootstrap
+                package. Also, adding these functionalities is easy as you just need to write a few lines of code and
+                you are all set. Moreover, with the customization option, you have the liberty to choose particular
+                plugins, helping to maintain minimize file size.
+            </p>
+            <li>
+                <h4>Far-reaching popularity</h4>
+            </li>
+            <p>
+                The most crucial advantage of using Bootstrap is its widespread presence. A multinational and global
+                company like Apple utilizes Bootstrap for its Apple Maps and Apple Music web apps. Not just this, but
+                Dropbox, Coursera, and Airbnb have acknowledged the prowess of Bootstrap and are using it to maintain
+                robustness.
+            </p>
+            <li>
+                <h4>Ample documentation</h4>
+            </li>
+            <p>
+                When using a framework, the support from the community is priceless, but some prefer referring to
+                written notes. Fortunately, Bootstrap satiates this requirement by providing easy-to-read and efficient
+                documentation on the Bootstrap website. The framework is easy, and the documentation makes it easier to
+                work on UI designing.
+            </p>
+            <li>
+                <h4>Updates at the doorstep</h4>
+            </li>
+            <p>
+                Staying updated is the core of any technology. The same thumb rule applies to Bootstrap, which is fully
+                attuned. Its core developers constantly keep the framework updated. They keep a close eye on future web
+                requirements and make changes accordingly. Whenever there is a new update, Bootstrap considers the users
+                to get hold of the latest and most advanced technology available in the industry.
+
+                So, these are some vital reasons to use Bootstrap for your web development projects. Apart from this, it
+                offers a chaos-free ambiance and minimal coding, making it extremely easy for a newbie to utilize it.
+                Choosing this framework will ease your life and complement all your requirements. Moreover, if you wish
+                to learn it, then enroll in the best web development course in Pune for productive results.
+            </p>
+
+        </ul>
+        <ul>
+            <li>
+                <h2>What is a Bootstrap Container, and how does it work?</h2>
+            </li>
+            <br>
+            <p>Containers are the most basic layout element in Bootstrap and are required when using our default grid
+                system. Containers are used to contain, pad, and (sometimes) center the content within them. While
+                containers can be nested, most layouts do not require a nested container.</p>
+        </ul>
+        <br>
+
+        <ul>
+            <li>
+                <h2>What are the default Bootstrap text settings?</h2>
+            </li>
+            <br>
+            <li>
+                <p>Bootstrap 4 uses a default font-size of 16px, and its line-height is 1.5.
+
+                    The default font-family is "Helvetica Neue", Helvetica, Arial, sans-serif.
+
+                    In addition, all &#60;p> elements have margin-top: 0 and margin-bottom: 1rem (16px by default).</p>
+            </li>
+            <br>
+
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>What do you know about the Bootstrap Grid System?</h2>
+            </li>
+            <br>
+            <p>Bootstrap’s grid system uses a series of containers, rows, and columns to layout and align content. It’s
+                built with flexbox and is fully responsive. Below is an example and an in-depth look at how the grid
+                comes together.</p>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>What is the difference between Bootstrap 4 and Bootstrap 5?</h2>
+            </li>
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>BASIS OF</th>
+                        <th>BOOTSTRAP 4</th>
+                        <th>BOOTSTRAP 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Grid System</strong></td>
+                        <td>It has 5 tier (xs, sm, md, lg, xl).</td>
+                        <td>It has 6 tier (xs, sm, md, lg, xl, xxl).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Color</strong></td>
+                        <td>It has limited colors.</td>
+                        <td>Extra colors added with the looks, A card improved color palette. there are various shades
+                            available to choose.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Jquery</strong></td>
+                        <td>It has jquery and all related plugins.</td>
+                        <td>Jquery is removed and switched to vanilla JS with some working plugins</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Internet Explorer</strong></td>
+                        <td>Bootstrap 4 supports both IE 10 and 11.</td>
+                        <td>Bootstrap 5 doesn’t support IE 10 and 11.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Form elements</strong></td>
+                        <td>Radio buttons, checkboxes have different look in different OS and browsers. The form uses
+                            whatever default browsers provide.</td>
+                        <td>The look of form elements will not change, on different OS or browser. The forms can be
+                            customized and form controls can be added, they would not depend on browser.&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Utilities API</strong></td>
+                        <td>We cannot modify utilities in bootstrap 4</td>
+                        <td>Bootstrap 5 gave freedom to modify and also create our own utility</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Gutter</strong></td>
+                        <td>We use .glutter with fontsize in px</td>
+                        <td>We use .g* with fontsize in rem</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Vertical Classes</strong></td>
+                        <td>Columns can be positioned relative</td>
+                        <td>Columns cannot be positioned relative</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Bootstrap Icons</strong></td>
+                        <td>Bootstrap 4 doesn’t have its own SVG icons, we have to use font-awesome for icons.</td>
+                        <td>Bootstrap 5 have its own SVG icons</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Jumbotron</strong></td>
+                        <td>It supports.</td>
+                        <td>It doesn’t support jumbotron.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Card deck</strong></td>
+                        <td>The card deck is used to create an isset of cards with equal width and height.</td>
+                        <td>Card deck class in removed in bootstrap</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Navbar</strong></td>
+                        <td>We have inline-block property and we will get white dropdown as default for
+                            dropdown-menu-dark class.</td>
+                        <td>Inline-block property is removed and we will get black dropdown as default for
+                            dropdown-menu-dark class.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Static Site Generator</strong></td>
+                        <td>Bootstrap 4 uses Jekyll software.</td>
+                        <td>Bootstrap 5 uses Hugo software as it is fast static site generator.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>flexbox grid</strong></td>
+                        <td>this makes easier to implement vertical designs, and the columns and rows can easily be
+                            implemented. the classes justify-center-content can directly be used to align according to
+                            the requirement.</td>
+                        <td>advanced grid system is made available , also columns don’t have relative positions. &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>RTL Support</strong></td>
+                        <td>It does not enable RTL(Right to Left) switching.</td>
+                        <td>It enables RTL(Right to Left) switching.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Offcanvas Component</strong></td>
+                        <td>It does not support Offcanvas Component.</td>
+                        <td>It supports Offcanvas Component(that is it is available now).</td>
+                    </tr>
+                </tbody>
+            </table>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>What is a Button Group, and what is the class for a basic Button Group?</h2>
+            </li>
+            <br>
+            <p>“Button Groups” in Bootstrap is a class of name “btn-group” which is used to create series of buttons in
+                groups (without spaces) vertically or horizontally.
+
+                This is the basic syntax of the button group class where each button has its own class of “btn”.
+                <br> <br>
+                &#60;div class="btn-group">
+                &#60;button type="button" class="btn"> Click &#60;/button>
+    </div>
+
+    <p>Buttons have a default border-radius on the first and last buttons of the group.</p>
+
+    <p> Styles on Buttons: Bootstrap allows you to add styles to your buttons using the following classes:</p>
+    <ul>
+        <li>
+            <p> .btn-default</p>
+        </li>
+        <li>
+            <p> .btn-primary</p>
+        </li>
+        <li>
+            <p> .btn-success</p>
+        </li>
+        <li>
+            <p> .btn-info </p>
+        </li>
+        <li>
+            <p> .btn-warning</p>
+        </li>
+        <li>
+            <p> .btn-danger </p>
+        </li>
+        <li>
+            <p> .btn-link </p>
+        </li>
+        <ul />
+        <br>
+        <ul>
+            <li>
+                <h2>How can you use Bootstrap to make thumbnails?</h2>
+
+            </li>
+            <br>
+            <ol>
+                <li>
+                    <p>Step 1: Include Bootstrap and jQuery CDN into the &#60;head> tag before all other stylesheets to
+                        load our CSS.</p>
+                </li>
+                <li>
+                    <p>Step 2: Add &#60;div> tag in the HTML body with class row. In that &#60;div> create four div
+                        sections to create four images.</p>
+                </li>
+                <li>
+                    <p>Step 3: Add “col-sm-6” and “col-md-3” to four div sections which creates webpage responsive.</p>
+                </li>
+                <li>
+                    <p>Step 4: Add <a> tag with class value thumbnail to define the link of the image in the next line.
+
+                            &#60;a href="#" class="thumbnail"></p>
+                </li>
+            </ol>
+            <li>
+                <h2>In Bootstrap 4, what is flexbox?</h2>
+            </li>
+            <br>
+            <p>Flexbox. The biggest difference between Bootstrap 3 and Bootstrap 4 is that Bootstrap 4 now uses flexbox,
+                instead of floats, to handle the layout. The Flexible Box Layout Module, makes it easier to design
+                flexible responsive layout structure without using float or positioning.</p>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>
+                    How can one create an alert in Bootstrap?
+                </h2>
+            </li>
+            <br>
+            <p>Alerts are available for any length of text, as well as an optional dismiss button. For proper styling,
+                use one of the eight required contextual classes </p>
+            <br>
+            <p>
+                (e.g., .alert-success, .alert alert-primary, .alert alert-secondary, .alert alert-success, .alert
+                alert-danger, .alert alert-warning, .alert alert-info, .alert alert-light, .alert alert-dark)
+            </p>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <h2>What is a bootstrap card and how would you create one?</h2>
+            </li>
+            <br>
+            <p>A card is a flexible and extensible content container. It includes options for headers and footers, a
+                wide variety of content, contextual background colors, and powerful display options. If you’re familiar
+                with Bootstrap 3, cards replace our old panels, wells, and thumbnails. Similar functionality to those
+                components is available as modifier classes for cards.</p>
+
+
+        </ul>
+
+        <div class="card" style="width: 18rem;">
+            <img src="../Module 6/myimg.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Mahmadmunaf Mansuri </i></h5>
+                <p class="card-text"><i> Web developer</p>
+                <a href="#" class="btn btn-primary">Profile</a>
+            </div>
+        </div>
+
+
+        </div>
+
+</body>
+
+</html>
